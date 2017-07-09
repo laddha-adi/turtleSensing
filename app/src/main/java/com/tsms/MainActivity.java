@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         Fragment fragment = null;
         switch(id){
+            case R.id.nav_bluetooth:
+// Handle the bluetooth action
+                Intent intent2 = new Intent(mContext, Bluetooth_activity.class);
+                startActivity(intent2);
+                finish();
+                break;
             case R.id.nav_temp:
                 // Handle the bluetooth action
                 fragment = new TemperatureFragment();

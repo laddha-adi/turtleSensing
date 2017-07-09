@@ -3,6 +3,9 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_bluetooth"
+            android:title="Bluetooth" />
+        <item
             android:id="@+id/nav_temp"
             android:title="Temperature" />
         <item
@@ -10,7 +13,7 @@
             android:title="Motion" />
         <item
             android:id="@+id/nav_moisture"
-            android:title="moisture/humidity" />
+            android:title="Moisture/Humidity" />
     </group>
 
     <item android:title="">
